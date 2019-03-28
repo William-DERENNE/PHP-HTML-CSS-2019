@@ -1,6 +1,5 @@
 <?php   header ( 'Content-Type: text/html;charset=UTF-8' );
-    echo 'PHP marche !!! Tesst UTF-8 : éèàîî';
-    require_once 'Voiture.php';
+    require_once 'classeObjet.php';
 ?>
 
 <!doctype html>
@@ -8,13 +7,18 @@
     <head>
         <meta charset="utf-8">
         <title>Initiation PHP7-HTML5-CSS3 exercice 2</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
         <?php
-            $_voiture = new Voiture ( 4 );
-            
-                $_voiture.getX();
+            $_objet = new Objet ( 19 );
+
+            $_objet.getX();
         ?>
+
+        
+
+
     </body>
 </html>
