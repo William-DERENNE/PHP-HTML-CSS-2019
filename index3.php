@@ -14,7 +14,7 @@
         <?php
             $_objet = new Objet ( 19 );
 
-            $_objet.getX();
+            $_objet -> getX();
         ?>
 
         
